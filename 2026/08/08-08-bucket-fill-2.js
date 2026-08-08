@@ -14,7 +14,7 @@ Passed:5. bucketFill([["G", "G", "C", "C", "O"], ["B", "Y", "B", "Y", "O"], ["B"
 */
 
 function bucketFill(grid, targetColor) {
-  const gridClone = [...grid];
+  const gridClone = structuredClone(grid);
 
   function changeRegion(x, y, color) {
     if (x < 0 || x >= gridClone.length || y < 0 || y >= gridClone[x].length) return;
