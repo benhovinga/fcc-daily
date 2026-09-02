@@ -11,7 +11,6 @@ Passed:5. sumOfSquares(1000) should return 333833500.
 */
 
 function sumOfSquares(n) {
-  if (n > 1000) n = 1000;
   let sum = 0;
   for (let i = 1; i <= n; i++) sum += i ** 2;
   return sum;
