@@ -16,6 +16,7 @@ This repository contains [*my*](https://github.com/benhovinga) solutions to the 
 
 Try to solve the challenges yourself first.
 Then come back to this repository and compare your solution against mine.
+You can also compare against the [official solutions](https://github.com/freeCodeCamp/freeCodeCamp/tree/main/curriculum/challenges/english/blocks/daily-coding-challenges-javascript).
 
 **Did you solve it?**
 
