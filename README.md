@@ -56,4 +56,4 @@ Finally, once it is saved, click the submit button and the challenge will be rec
 
 I provide my solutions freely under the [MIT License](./LICENSE).
 
-I am not affiliated freeCodeCamp, and freeCodeCamp does not endorsed my solutions.
+I am not affiliated with freeCodeCamp, and freeCodeCamp does not endorsed my solutions.
