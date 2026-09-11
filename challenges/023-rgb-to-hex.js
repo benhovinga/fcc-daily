@@ -19,8 +19,8 @@ Passed:4. rgbToHex("rgb(79, 123, 201)") should return "#4f7bc9".
 
 function rgbToHex(rgb) {
   const re = /rgb\((\d{1,3})\D*(\d{1,3})\D*(\d{1,3})\)/gi;
-  const [r, g, b] = [...rgb.matchAll(re)][0]
+  return "#" + [...rgb.matchAll(re)][0]
     .filter((_, i) => i != 0)
-    .map(c => Number.parseInt(c).toString(16).padStart(2, "0"));
-  return `#${r}${g}${b}`;
+    .map(c => Number.parseInt(c).toString(16).padStart(2, "0"))
+    .join("");
 }
