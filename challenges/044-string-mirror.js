@@ -1,0 +1,24 @@
+/*
+String Mirror
+Given two strings, determine if the second string is a mirror of the first.
+
+A string is considered a mirror if it contains the same letters in reverse order.
+Treat uppercase and lowercase letters as distinct.
+Ignore all non-alphabetical characters.
+
+Tests:
+Passed:1. isMirror("helloworld", "helloworld") should return false.
+Passed:2. isMirror("Hello World", "dlroW olleH") should return true.
+Passed:3. isMirror("RaceCar", "raCecaR") should return true.
+Passed:4. isMirror("RaceCar", "RaceCar") should return false.
+Passed:5. isMirror("Mirror", "rorrim") should return false.
+Passed:6. isMirror("Hello World", "dlroW-olleH") should return true.
+Passed:7. isMirror("Hello World", "!dlroW !olleH") should return true.
+*/
+
+function isMirror(str1, str2) {
+  const re = /[A-Z]/gi;
+  const arr1 = str1.match(re);
+  const arr2 = str2.match(re).reverse();
+  return JSON.stringify(arr1) === JSON.stringify(arr2);
+}
