@@ -1,7 +1,7 @@
 # freeCodeCamp Daily Coding Challenges - Solutions
 
 The wonderful people over at [freeCodeCamp](https://www.freecodecamp.org/) have created free [daily coding challenges](https://www.freecodecamp.org/learn/daily-coding-challenge/archive). 
-These are simple coding challenges that test your problem solving skills and can usually be completed in under an hour.
+These are simple coding challenges that test your problem solving skills and can usually be completed in 30 minutes or less.
 
 When logged in, your freeCodeCamp account will keep track of which challenges you have completed.
 However, it does not save a copy of your code solution.
