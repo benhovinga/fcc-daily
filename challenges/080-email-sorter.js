@@ -22,8 +22,7 @@ function sort(emails) {
   const normalized = emails.map((email, i) => [i, ...email.toLowerCase().split("@")]);
 
   const domains = normalized.reduce((acc, item) => {
-    if (!acc.includes(item[2]))
-      acc.push(item[2])
+    if (!acc.includes(item[2])) acc.push(item[2])
     return acc;
   },[]).toSorted();
 
